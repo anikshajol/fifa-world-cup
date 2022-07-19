@@ -1,0 +1,137 @@
+/* ----- Google fonts----- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* ---common Utilities---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Top banner style section start */
+
+.top-banner {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(23, 0, 0, 1) 50%,
+    rgba(0, 0, 1, 1) 100%
+  );
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
+  border-radius: 30px;
+  margin-bottom: 10%;
+}
+
+.banner-description {
+  width: 50%;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.title-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.top-banner-button {
+  background-color: #dd0000;
+  padding: 16px 25px 16px 25px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+/* Header Top banner style end */
+
+/* -----side menubar style start----- */
+.side-menu {
+  width: 312px;
+  height: 312px;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.side-menu button {
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #161616;
+}
+
+/* -----side menubar style end----- */
+
+/* -----main area blogs style start----- */
+.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 10px;
+}
+
+.blog-image img {
+  width: 100%;
+}
+
+.blogs-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.blog {
+  width: 312px;
+  height: 362px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+
+.blog-details {
+  padding-left: 10px;
+  /* padding: 20px 10px; */
+}
+
+.blog-button {
+  border: 1px solid #161616;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+
+.blog-title {
+  margin: 20px 0;
+}
+
+.icon {
+  padding: 5px;
+}
+
+.timing {
+  margin-right: 20px;
+}
+
+/* -----main area blogs style end----- */
