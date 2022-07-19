@@ -19,7 +19,6 @@ body {
 /* Header Top banner style section start */
 
 .top-banner {
-  width: 100%;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
@@ -27,13 +26,14 @@ body {
     rgba(0, 0, 1, 1) 100%
   );
   display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 5rem;
+  justify-content: space-around;
   border-radius: 30px;
   margin-bottom: 10%;
+  padding: 0 20px;
 }
 
 .banner-description {
+  margin-left: 50px;
   width: 50%;
 }
 
@@ -58,6 +58,15 @@ body {
   color: #ffffff;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 50%;
+}
+.banner-image img {
+  margin-left: 80px;
+  height: 100%;
 }
 /* Header Top banner style end */
 
