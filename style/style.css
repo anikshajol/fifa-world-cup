@@ -7,9 +7,11 @@
 
 .match {
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
   padding: 20px;
+}
+.matches p {
+  padding: 0 10px;
 }
 
 .match-description {
