@@ -1,20 +1,15 @@
-.blog {
-  width: 312px;
-  height: 250px;
+.matches {
+  width: 20vw;
+  height: 40vh;
   border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
 
 .match {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
   padding: 20px;
-}
-
-.match p {
-  font-size: 18px;
-  font-weight: 900;
 }
 
 .match-description {
